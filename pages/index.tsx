@@ -9,12 +9,12 @@ const Home: NextPage = () => {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex w-full flex-1 flex-col items-center  px-20 text-center">
+      <main className="flex w-full flex-1 flex-col items-center  md:px-20 text-center">
         <h2 className=" text-3xl font-bold bg-slate-800 text-white p-9 mt-11 rounded-lg   ">
           {' '}
           Ligues
           <p
-            className=" font-normal mt-4
+            className=" font-normal text-lg mt-4 md:text-xl
           "
           >
             (next-apollo-grapql-test){' '}
