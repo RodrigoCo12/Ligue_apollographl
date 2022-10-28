@@ -1,13 +1,8 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
-import router from 'next/router';
-
-const Home: NextPage = ({ ligues }: any) => {
-  // console.log(ligues);
-  // console.log(models);
-  // delete models['Ligue'];
-
+const Home: NextPage = () => {
+  // const cesar = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@${process.env.DB_CLUSTER}.f7noilt.mongodb.net/?retryWrites=true&w=majority`;
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>

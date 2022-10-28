@@ -12,3 +12,5 @@ export const getDB = async (dbName: string = process.env.DB_NAME!) => {
   await client.connect();
   return client.db(dbName);
 };
+
+export const prove = process.env.DB_USERNAME;
