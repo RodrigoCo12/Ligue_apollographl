@@ -1,0 +1,34 @@
+.root {
+  max-width: 680px;
+  margin: 10% auto;
+  form {
+    padding: 30px;
+    display: flex;
+    background-color: rgb(119, 171, 227);
+    box-shadow: 5px 10px 5px rgba(92, 92, 92, 0.429);
+    flex-direction: column;
+    row-gap: 10px;
+    * {
+      height: 50px;
+      margin-top: 10px;
+    }
+
+    input {
+      padding: 0 10px;
+    }
+
+    button {
+      border-radius: 20px;
+      font-size: 24px;
+      font-weight: 700;
+
+      background-color: white;
+      &:hover {
+        box-shadow: 5px 5px 2px rgba(92, 92, 92, 0.429);
+        top: 10px;
+        transform: translateY(-2px);
+        transition: all 200ms;
+      }
+    }
+  }
+}
